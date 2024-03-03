@@ -1,4 +1,4 @@
-# Stopwatch Web Application using Simple JS
+# Stopwatch Web Application with Lap Time Functionality
 
 This repository consists of a responsive stopwatch application implemented using basic HTML, CSS, and JavaScript, including lapping functionality.
 
