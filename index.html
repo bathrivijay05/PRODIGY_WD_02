@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopwatch Web Application</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="normalize.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="timer-container">
+        <h1>Stopwatch</h1>
+        <div id="stopwatch">00:00:00</div>
+        <div id="controls">
+            <button id="startStopButton">Start</button>
+            <button id="lapButton">Lap</button>
+            <button id="resetButton">Reset</button>
+        </div>
+    </div>
+    <div class="lap-table-container">
+        <table id="lap-table">
+            <thead>
+                <tr>
+                <th>Lap</th>
+                <th>Time</th>
+                <th>Difference</th>
+                </tr>
+            </thead>
+            <tbody id="lap-table-main"></tbody>
+          </table>
+          <p id="info">No records found!</p>
+    </div>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
